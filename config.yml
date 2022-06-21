@@ -1,0 +1,9 @@
+server:
+  addr: :8000
+mysql:
+  dsn: youruser:yourpassword@tcp(127.0.0.1:3306)/go_example?charset=utf8&parseTime=True&loc=Local
+redis:
+  addr: 127.0.0.1:6379
+  password: yourpassword
+  database: 0
+  expiration: 1h
